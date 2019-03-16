@@ -5,12 +5,18 @@
 - Team member [Kevin](https://github.com/Knkjett)
 ---
 ## Key features
+- **If, Else Statements**
+- [ ] If examples
+- [ ] If, Else examples
+- [ ] If, Else, Else, ... examples
+
 - **Loops**
 - [ ] For Loops
 - [ ] While Loops
-- **Algorithms**
-- [ ] Sorting algorithms and problem solving paths
+
 - **API**
 - [ ] API Example using tripadvisor
 - [ ] Bucket visualizer for API represent and show data
 ---
+**Extra features**
+- [ ] Sorting algorithms and problem solving paths
