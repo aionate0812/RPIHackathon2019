@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ForLoop from './Containers/ForLoop/ForLoop'
 import { HashRouter, Route } from 'react-router-dom';
 import Nav from './Components/Navbar/Navbar'
 import IfStatement from './Containers/IfStatement/IfStatement'
@@ -16,6 +17,7 @@ class App extends Component {
             <Route path='/' exact component={this.temp} />
             <Route path='/ifelse' exact component={IfStatement} />
             <Route path='/restaurant' exact component={Restaurant} />
+            <Route path='/loops' exact component={ForLoop} />
           </div>
         </>
       </HashRouter>
