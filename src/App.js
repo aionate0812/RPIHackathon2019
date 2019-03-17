@@ -4,6 +4,7 @@ import { HashRouter, Route } from 'react-router-dom';
 import Nav from './Components/Navbar/Navbar'
 import IfStatement from './Containers/IfStatement/IfStatement'
 import Restaurant from './Containers/Restaurants/Restaurants'
+import APICalls from './Containers/APICalls/APICalls'
 class App extends Component {
   temp = () => {
     return (<h1>HOME</h1>)
@@ -18,6 +19,7 @@ class App extends Component {
             <Route path='/ifelse' exact component={IfStatement} />
             <Route path='/restaurant' exact component={Restaurant} />
             <Route path='/loops' exact component={ForLoop} />
+            <Route path='/apicalls' exact component={APICalls} />
           </div>
         </>
       </HashRouter>
