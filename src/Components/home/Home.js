@@ -6,7 +6,7 @@ const Home = () => {
     <div className='container'>
       <div className="row justify-content-center">
         <div className="toast-body">
-          <img src="http://2ality.com/2011/10/logo-js/js.jpg" className="rounded mr-2" alt="JavaScript" width='50' height='50' />
+          <img src="https://2ality.com/2011/10/logo-js/js.jpg" className="rounded mr-2" alt="JavaScript" width='50' height='50' />
           <strong className="mr-auto">Notice! </strong>
           Hello, World! These examples are written and explained with JavaScript!
          </div>

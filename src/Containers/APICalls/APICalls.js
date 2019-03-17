@@ -54,8 +54,8 @@ class APICalls extends React.Component {
             <>
                 <div className='container'>
                     <h2>API Call and Objects</h2>
-                    <p>API Calls are done through get requests to a back-end server. THe response is given back as an JSON file where it would be parsed into an Object</p>
-                    <p>Below is a sandbox using TripAdvisor's API.</p>
+                    <p>API Calls are done through get requests to a back-end server. The response is given back as an JSON file where it would be parsed into an Object</p>
+                    <p>Below is a sandbox using TripAdvisor's API to for Restaurants around Troy.</p>
                     <p>Objects often have nested variables and catagories, its very easy to get lost! You can have Objects within Objects, Arrays within Objects and so on!</p>
                 </div>
                 <div className='container'>
