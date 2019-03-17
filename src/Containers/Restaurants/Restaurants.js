@@ -1,6 +1,6 @@
 import React , { Component } from 'react';
 import Card from '../../Components/restaurant/restaurantCard'
-import api from '../../services/apiService'
+import {tripAPI} from '../../services/apiService'
 
 class restaurantList extends Component {
   constructor(props) {
@@ -10,9 +10,17 @@ class restaurantList extends Component {
     }
   }
   componentDidMount(){
-    api().then((res)=>{
-      this.setState({list:res})
-    })
+    if(!JSON.parse(localStorage.getItem('restaurants'))){
+      tripAPI().then((res)=>{
+        this.setState({list:res})
+        localStorage.setItem('restaurants',JSON.stringify(res))
+      })
+    } else {
+      this.setState({list:JSON.parse(localStorage.getItem('restaurants'))})
+
+    }
+    
+    
   }
   CardList = () =>{
     return(
