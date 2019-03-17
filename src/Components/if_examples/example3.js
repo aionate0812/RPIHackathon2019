@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Example1 = (props) => {
+const Example3 = (props) => {
   return (<>
     <div className="row">
 
@@ -100,4 +100,4 @@ const Example1 = (props) => {
     </div>
   </>)
 }
-export default Example1
+export default Example3
