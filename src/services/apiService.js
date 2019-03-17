@@ -1,6 +1,6 @@
 import axios from 'axios'
 const tripAPI = () =>{
-  return axios.get('https://api.tripadvisor.com/api/partner/2.0/location/48739/restaurants?key=2f5aef9e-d399-4298-9986-ea6305c270a8')
+  return axios.get('https://api.tripadvisor.com/api/partner/2.0/location/48739/restaurants?key=39da9761-5995-4fff-847b-bd49a0e08b8a')
   .then((res)=>{
     return res.data.data.map((e)=>{
       let restaurantInfo = {
