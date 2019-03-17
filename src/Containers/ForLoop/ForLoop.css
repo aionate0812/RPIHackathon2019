@@ -1,0 +1,32 @@
+.path {
+    stroke-dasharray: 1345;
+    stroke-dashoffset: -1345;
+    animation: dash 5s linear;
+  }
+  
+  @keyframes dash {
+    from {
+      stroke-dashoffset: -2690;
+    }
+    to {
+      stroke-dashoffset: -1345;
+    }
+  }
+
+  .path-click {
+    stroke-dasharray: 1345;
+    stroke-dashoffset: -1345;
+    animation: dash 1s linear infinite;
+  }
+
+  @keyframes dash {
+    from {
+      stroke-dashoffset: -2690;
+    }
+    to {
+      stroke-dashoffset: -1345;
+      
+    }
+  }
+  
+  
