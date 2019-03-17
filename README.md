@@ -10,12 +10,14 @@
 ## Key features
 
 **If, Else Statements**
-- [ ] If examples
-- [ ] If, Else examples
-- [ ] If, Else, Else, ... examples
+- [x] If examples
+- [x] If, Else examples
+- [x] If, Else, Else, ... examples
+- [x] Advanced Conditionals examples
+- [x] TripAdvisor restaurant redirect at times to eat
 
 **Loops**
-- [ ] For Loops
+- [x] For Loops
 - [ ] While Loops
 
 **API**
