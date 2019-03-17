@@ -8,6 +8,9 @@
 - Team member [Kevin](https://github.com/Knkjett)
 ---
 ## Key features
+**Home Page**
+Home Page preview and layout
+![homeExample](https://github.com/aionate0812/RPIHackathon2019/blob/master/src/assets/home.jpg)
 
 **If, Else Statements**
 - [x] If examples
@@ -16,12 +19,16 @@
 - [x] Advanced Conditionals examples
 - [x] TripAdvisor restaurant redirect at times to eat
 
+![ifelseExample](https://github.com/aionate0812/RPIHackathon2019/blob/master/src/assets/ifelse.jpg?raw=true)
+
 **Loops**
 - [x] For Loops
-- [ ] While Loops
+- [X] While Loops
+
+![forloopExample](https://github.com/aionate0812/RPIHackathon2019/blob/master/src/assets/loops.jpg?raw=true)
 
 **API**
-- [ ] API Example using tripadvisor
+- [X] API Example using tripadvisor
 - [ ] Bucket visualizer for API represent and show data
 ---
 **Extra features**
