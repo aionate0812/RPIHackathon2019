@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5d1735e9-3638-42f9-b2a8-7ee35e9c473e/deploy-status)](https://app.netlify.com/sites/silly-mestorf-0977c8/deploys)
+
 # RPI Hackathon | Education
 - 24 Hour hackathon to create an Education app to help beginners visualize code concepts.
 # Goals
