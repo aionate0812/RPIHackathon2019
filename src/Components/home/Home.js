@@ -6,7 +6,7 @@ const Home = () => {
     <div className='container'>
       <div className="row justify-content-center">
         <div className="toast-body">
-          <img src="http://2ality.com/2011/10/logo-js/js.jpg" className="rounded mr-2" alt="JavaScript" width='50' height='50' />
+          <img src="https://2ality.com/2011/10/logo-js/js.jpg" className="rounded mr-2" alt="JavaScript" width='50' height='50' />
           <strong className="mr-auto">Notice! </strong>
           Hello, World! These examples are written and explained with JavaScript!
          </div>
@@ -22,7 +22,7 @@ const Home = () => {
           <img src='https://media.giphy.com/media/K5kfQExKk731K/giphy.gif' alt='forloop' style={{ 'maxWidth': '300px' }} />
           <p>See in action the looping cycles of for loops with sandbox test ground.</p>
         </Link>
-        <Link className='col-lg-4 col-sm-12 noDesc' to='api'>
+        <Link className='col-lg-4 col-sm-12 noDesc' to='apicalls'>
           <h3>API</h3>
           <img src='https://media.giphy.com/media/ini6gpWb8ZbQ4/giphy.gif' alt='api' style={{ 'maxWidth': '300px' }} />
           <p>How JSON Objects are represented and explained in bucket format.</p>

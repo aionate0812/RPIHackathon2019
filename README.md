@@ -29,7 +29,7 @@
 
 **API**
 - [X] API Example using tripadvisor
-- [ ] Bucket visualizer for API represent and show data
+- [x] Bucket visualizer for API represent and show data
 ---
 **Extra features**
 - [ ] Sorting algorithms and problem solving paths
