@@ -1,7 +1,7 @@
 # RPI Hackathon | Education
 - 24 Hour hackathon to create an Education app to help beginners visualize code concepts.
 # Goals
-- Practice front-end development using [React](https://reactjs.org/) and [Blueprintjs](https://blueprintjs.com/)
+- Practice front-end development using [React](https://reactjs.org/) and [Bootstrap](https://getbootstrap.com/)
 
 **Team Members**
 - Team member [Alexander](https://github.com/aionate0812)
@@ -9,7 +9,7 @@
 ---
 ## Key features
 **Home Page**
-Home Page preview and layout
+- Home Page preview and layout
 ![homeExample](https://github.com/aionate0812/RPIHackathon2019/blob/master/src/assets/home.jpg)
 
 **If, Else Statements**
@@ -33,3 +33,4 @@ Home Page preview and layout
 ---
 **Extra features**
 - [ ] Sorting algorithms and problem solving paths
+
