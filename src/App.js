@@ -6,6 +6,7 @@ import Footer from './Components/Navbar/Footer'
 import Home from './Components/home/Home'
 import IfStatement from './Containers/IfStatement/IfStatement'
 import Restaurant from './Containers/Restaurants/Restaurants'
+import APICalls from './Containers/APICalls/APICalls'
 
 class App extends Component {
   render() {
@@ -18,6 +19,7 @@ class App extends Component {
             <Route path='/ifelse' exact component={IfStatement} />
             <Route path='/restaurant' exact component={Restaurant} />
             <Route path='/loops' exact component={ForLoop} />
+            <Route path='/apicalls' exact component={APICalls} />
           </div>
           <div className='mt-5'>
           <Route path='/' component={Footer} />
