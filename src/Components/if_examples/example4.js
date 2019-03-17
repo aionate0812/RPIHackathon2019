@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 const CurrentEvent = () => {
   let today = new Date();
   let hours = today.getHours();
-  if (hours >= 6  && hours <= 11) {
+  if (hours >= 6  && hours <= 10) {
     return (
       <>
     <h4>Its almost time for breakfast. What should I eat?</h4>
@@ -11,7 +11,7 @@ const CurrentEvent = () => {
     </>
     )
   }
-  else if (hours > 11 && hours <= 15) {
+  else if (hours >= 11 && hours <= 15) {
     return (
       <>
     <h4>Its almost time for lunch. What should I eat?</h4>
@@ -19,7 +19,7 @@ const CurrentEvent = () => {
     </>
     )
   }
-  else if (hours > 18 && hours <= 21) {
+  else if (hours >= 17 && hours <= 21) {
     return (
       <>
     <h4>Its almost time for dinner. What should I eat?</h4>
@@ -27,7 +27,7 @@ const CurrentEvent = () => {
     </>
     )
   }
-  else if (hours === 14 || hours ===0){
+  else if (hours === 14 || hours === 0){
     return(<h4>I'm craving snacks.</h4>)
   }
   else{
@@ -79,7 +79,7 @@ const Example4 = (props) => {
       <div className="row"> <code>else if(hours >= 11  && hours &#60;= 15) &#123;</code></div>
       <div className="row"><code>'Its almost time for lunch. What should I eat?';</code></div>
       <div className="row"><code>&#125;;</code></div>
-      <div className="row"> <code>else if(hours >= 18  && hours &#60;= 21) &#123;</code></div>
+      <div className="row"> <code>else if(hours >= 17  && hours &#60;= 21) &#123;</code></div>
       <div className="row"><code>'Its almost time for dinner. What should I eat?';</code></div>
       <div className="row"><code>&#125;;</code></div>
       <div className="row"> <code>else if(hours === 14  || hours === 0) &#123;</code></div>

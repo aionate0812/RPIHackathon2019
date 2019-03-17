@@ -59,7 +59,7 @@ const Example3 = (props) => {
       <p>'if' one condition is met, inside that body there can be another 'if' statement which has their own conditions</p>
       <p>The syntax: <code>if(condition)&#123;if(another condition)&#123;body&#125;;&#125;; else&#123;body&#125;;</code></p>
     </div>
-    <div className="codeContainer pl-5 pr-5">
+    <div className="codeContainer pl-5 pr-5 mb-5">
       <div className="row"> <p>Code Snippet Example 3</p></div>
       <div className="row"> <code>let x = 1;</code></div>
       <div className="row"> <code>let y = 3;</code></div>
@@ -92,7 +92,7 @@ const Example3 = (props) => {
           <path className="marker" fill="none" stroke="black" strokeWidth="5px" d="M100 120 C 300 120, 400 120, 400 80 C 400 40, 500 40, 600 40, C 600 65 , 700 65, 700 65" />
         </svg>
       </div>
-      <div className="col-lg-4 col-sm-12">
+      <div className="col-lg-4 col-sm-12 mb-5">
         <p>Now we have two parameters! We have the 'x' and 'y' variable, where 'x' is  and 'y' is 3.</p>
         <p>As you can see 'x' is in fact 1 and starts to go into the body of statement. Inside the body there is another 'if' statement with passes the condition 'y === 3'</p>
         <p>If 'y' was not 3 then the train route would head to Albany, since it 'y' is in fact 3 the destination is Troy.</p>
