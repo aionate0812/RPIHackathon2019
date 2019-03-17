@@ -1,12 +1,11 @@
 import React from 'react'
 
 const restaurantCard = (props) =>{
-  console.log(props.ele)
   return(<>
-    <div className="card col-6" >
+    <div className="card col-6" style={{"boxShadow":"12px 0 10px -4px  #A44A3F, -12px 0 10px -4px #A44A3F"}}>
   <div className="card-body">
     <h5 className="card-title">{props.ele.name}</h5>
-    <img src= {props.ele.ratingImg} />
+    <img src= {props.ele.ratingImg} alt="rating"/>
     <p className="card-text">{props.ele.address}</p>
     <p className="card-text">{props.ele.city}</p>
     <a href={props.ele.url} className="card-link">TripAdvisor</a>

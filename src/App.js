@@ -1,20 +1,24 @@
 import React, { Component } from 'react';
 import { HashRouter, Route } from 'react-router-dom';
+import Nav from './Components/Navbar/Navbar'
 import IfStatement from './Containers/IfStatement/IfStatement'
 import Restaurant from './Containers/Restaurants/Restaurants'
 class App extends Component {
-  temp = () =>{
+  temp = () => {
     return (<h1>HOME</h1>)
   }
   render() {
     return (
       <HashRouter>
-      <>
-        <Route path='/' exact component={ this.temp } />
-        <Route path='/ifelse' exact component={ IfStatement } />
-        <Route path='/restaurant' exact component={ Restaurant} />
-      </>
-    </HashRouter>
+        <>
+          <Route path='/' component={Nav} />
+          <div className='container mt-5'>
+            <Route path='/' exact component={this.temp} />
+            <Route path='/ifelse' exact component={IfStatement} />
+            <Route path='/restaurant' exact component={Restaurant} />
+          </div>
+        </>
+      </HashRouter>
     );
   }
 }
