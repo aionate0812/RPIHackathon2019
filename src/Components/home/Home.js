@@ -22,7 +22,7 @@ const Home = () => {
           <img src='https://media.giphy.com/media/K5kfQExKk731K/giphy.gif' alt='forloop' style={{ 'maxWidth': '300px' }} />
           <p>See in action the looping cycles of for loops with sandbox test ground.</p>
         </Link>
-        <Link className='col-lg-4 col-sm-12 noDesc' to='api'>
+        <Link className='col-lg-4 col-sm-12 noDesc' to='apicalls'>
           <h3>API</h3>
           <img src='https://media.giphy.com/media/ini6gpWb8ZbQ4/giphy.gif' alt='api' style={{ 'maxWidth': '300px' }} />
           <p>How JSON Objects are represented and explained in bucket format.</p>

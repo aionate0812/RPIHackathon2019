@@ -16,16 +16,16 @@ class ForLoop extends React.Component {
         }
     }
     setLoopVariable = (e) => {
-        this.setState({loopVariable:e.target.value}, ()=>{console.log(this.state.loopVariable)})
+        this.setState({loopVariable:e.target.value})
     }
     setWhileVariable = (e) => {
-        this.setState({whileString:e.target.value}, ()=>{console.log(this.state.whileString)})
+        this.setState({whileString:e.target.value})
     }
     setLoopLogicStop = (e) => {
-        this.setState({loopLogicStop:e.target.value}, ()=>{console.log(this.state.loopLogicStop)})
+        this.setState({loopLogicStop:e.target.value})
     }
     setLoopVariableValue = (e) => {
-        this.setState({loopVariableValue:e.target.value}, ()=>{console.log(this.state.loopVariableValue)})
+        this.setState({loopVariableValue:e.target.value})
     }
     runCirclePerSecond = (i) => {
          return setInterval(()=>{
