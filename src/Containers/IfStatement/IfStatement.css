@@ -1,0 +1,28 @@
+.marker {
+  stroke-dasharray: 100;
+  stroke-dashoffset: 100;
+  animation: move 5s linear infinite;
+}
+
+@keyframes move {
+  from {
+    stroke-dashoffset: 0;
+  }
+  to {
+    stroke-dashoffset: -1000;
+  }
+}
+.codeContainer{
+  position: relative;
+  left:0;
+  top:'30vh';
+  background-color: lightblue;
+  opacity: 80%;
+}
+
+@media only screen
+and (min-width: 1390px) {
+  .codeContainer{
+    position: absolute;
+  }
+}
